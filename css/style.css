@@ -1,0 +1,72 @@
+body{
+    margin:0;
+    padding:0;
+    text-align:left;
+    font-size: 24px;
+}
+header{
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+}
+
+h1{
+    font-size: 32px;
+}
+
+main{
+    border-bottom:1px solid #ccc;
+}
+footer{
+    background-color: #fff;
+    border-bottom:1px solid #ccc;
+    text-align: center;
+}
+p{
+    font-size:100%;
+    text-align: center;
+    border-bottom:1px solid #fff;
+    height: 20px;
+}
+ul{
+    padding: 0;
+    border-top: 1px solid #000000;
+    display:table;  /* 定義 */
+    table-layout: fixed;
+    width:100%;
+}
+li{
+    list-style-type:none;
+    border: 1px solid #666;
+    background-color: #FFF;
+    display:table-cell;  /* 定義 */
+    cursor: pointer;
+    text-align: center;
+}
+li:hover{
+    background: #e2e1e1;
+    color:#fff;
+}
+
+#par_icon{
+width: 20%;}
+
+#gu_icon{
+    width: 20%;
+}
+
+#cho_icon{
+    width: 20%;
+}
+#com_icon_field{
+    height: 220px;
+    text-align: center;
+}
+
+#com_icon{
+    height: 100%;
+}
+
+#win_lose{
+    text-align: center;
+}
